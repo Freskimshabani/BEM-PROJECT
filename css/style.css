@@ -37,9 +37,8 @@ section{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px;
     gap: 50px;
-    margin: 0 100px;
 }
 .box--column{
     display: flex;
@@ -147,6 +146,7 @@ nav{
 .primary--button:hover{
     background-color: var(--titleclr);
 }
+
 /*Image Box & Image*/
 .image--box{
     display: flex;
@@ -158,6 +158,7 @@ nav{
 .image{
     width: auto;
 }
+
 /*Header*/
 header{
     background: linear-gradient(rgba(255, 255, 255,.8), rgba(255, 255, 255,.8)), url(/img/1080h/City.png);
@@ -200,6 +201,7 @@ header{
 .header__paragraph{
     font-size: 14pt;
 }
+
 /*Quick About US*/
 .company{
     display: flex;
@@ -250,6 +252,7 @@ header{
     align-items: center;
     gap: 25px;
 }
+
 /*Icon Container & Card*/
 .icon--card__desc{
     display: flex;
@@ -328,8 +331,10 @@ header{
 .latest--code__side--desc{
     width: 40%;
 }
+
 /* Why Choose Us? */
 .why--chooseus{
+    width: 100%;
     gap: 50px;
 }
 .why--chooseus__center--desc{
@@ -346,10 +351,11 @@ header{
     flex-direction: column;
     text-align: center;
     gap: 25px;
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 .icon--grid{
     display: grid;
+
 }
 .center--desc{
     display: flex;
@@ -359,6 +365,7 @@ header{
     text-align: center;
     gap: 25px;
 }
+
 /* Ultimate Features */
 .ultimate--features{
     gap: 50px;
@@ -377,6 +384,7 @@ header{
 .ultimate--features__side--desc{
     gap: 50px;
 }
+
 /* Payment Tab */
 .payment--tab{
     gap: 50px;
@@ -472,6 +480,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 /* Client Reviews */
 .client--reviews{
     gap: 50px;
@@ -596,9 +605,12 @@ header{
 .FAQ--accordion__body--content{
     margin-top: 20px;
 }
+
 /* Download Tab */
+.download--tab{
+    width: 100%;
+}
 .download--tab__content{
-    margin: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -620,8 +632,11 @@ header{
     transform: scale(1.05);
 }
 .download--tab__image{
+    display: flex;
+    width: auto;
     height: 400px;
 }
+
 /* Footer */
 footer{
     color: var(--buttontxtclr);
